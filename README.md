@@ -9,7 +9,8 @@ No warranty it will work on other OSes(yet) or with older versions of Arduino ID
 2. In Arduino IDE select board/variation/upload method you want to use
 3. Copy content of this repo into the root of newly created project
 4. Open project in CLion
-5. In *CMakeLists.txt* set **ARDUINO_HOME** to the root of your Arduino installation (On Windows replace all '\' in path with '\\' or '/')
+5. In *CMakeLists.txt* set **ARDUINO_HOME** to the root of your Arduino installation<br/>
+   (On Windows replace all '\' in path with '\\\' or '/')
 6. In *CMakeLists.txt* set **ARDUINO_CPU** to one of the [CPU definitions](https://github.com/olegrak/le.cho-arduino-clion/wiki/CPU-definitions) or keep as is in case you're not sure what to put there
 7. Reload Cmake project
 8. Put *#include &lt;Arduino.h&gt;* at the begining of your .ino sketch
