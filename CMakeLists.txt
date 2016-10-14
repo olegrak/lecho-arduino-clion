@@ -19,5 +19,9 @@ if (ARDUINO_CONFIG_SUCCEEDED)
             WORKING_DIRECTORY ${ARDUINO_HOME})
 
     SET_SOURCE_FILES_PROPERTIES(${ARDUINO_SKETCH} PROPERTIES LANGUAGE CXX)
-    add_library(DUMMY ${ARDUINO_SKETCH})
+    SET (SOURCES
+            ${ARDUINO_SKETCH}
+            #[[Append here to include into project]])
+
+    add_library(DUMMY ${SOURCES})
 endif()
