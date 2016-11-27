@@ -13,7 +13,7 @@ No warranty it will work on other OSes(yet) or with older versions of Arduino ID
    (On Windows replace all '\' in path with '\\\' or '/')
 6. In *CMakeLists.txt* set **ARDUINO_CPU** to one of the [CPU definitions](https://github.com/olegrak/le.cho-arduino-clion/wiki/CPU-definitions) or keep as is in case you're not sure what to put there
 7. Reload Cmake project
-8. Put *#include &lt;Arduino.h&gt;* at the begining of your .ino sketch then **save** the file
+8. Put *#include &lt;Arduino.h&gt;* at the begining of your .ino sketch then **SAVE** the file
 
 At this point you're done. I usually also remove 'BuildAll' and 'DUMMY' run configurations since they're useless.</br>
 You're interested in the next two run configurations:<br/>
